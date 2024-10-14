@@ -79,10 +79,10 @@ function obfuscate(source,VarName,WaterMark)
 			"New update when?",
 			"Free obfuscator!",
 			"For Everyone",
-			"PlayerPro342's Fork",
+			"Basic's Fork",
 			"Yo new MoonSec dropped",
 			"luau compiler when?",
-			"Just ↯↯",
+			"Just wowie",
 			"Bro...",
 			"NaN + -INF - math.huge * (5 % 2²)",
 			"you got haxxed!",
@@ -148,7 +148,8 @@ function obfuscate(source,VarName,WaterMark)
 	local obfuscated = WM..troll_var.."; "..Loadstring.."; "..fake_code(math.random(2,4), math.random(400,600))..TableByte.."; "..[[local ]]..Variable..tostring(random_(math.random(15,20))).." = "..func[1].."("..func[2]..")".."; "..fake_code(math.random(2,4), math.random(string.len(source) / 2, string.len(source) * 2))
 	print("Script obfuscated: " .. obfuscated)
 	warn("Done obfuscate in "..tostring(tick() - ticks).." second(s).")
-	return tostring(obfuscated)
+	local obfuscatedstring = tostring(obfuscated)
+	return obfuscatedstring
 end
 
 --// Module
