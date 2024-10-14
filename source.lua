@@ -149,7 +149,7 @@ function obfuscate(source,VarName,WaterMark)
 	print("Script obfuscated: " .. obfuscated)
 	warn("Done obfuscate in "..tostring(tick() - ticks).." second(s).")
 	local obfuscatedstring = tostring(obfuscated)
-	return obfuscatedstring
+	return obfuscated
 end
 
 --// Module
